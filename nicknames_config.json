@@ -1,0 +1,111 @@
+{
+  "description": "Config danh hiệu game Van Phong Luc - Dễ dàng chỉnh sửa giá trị buff",
+  "nicknames": [
+    {
+      "id": 0,
+      "name": "Đương tiền thượng vị",
+      "condition": "Mặc định",
+      "buff_description": "",
+      "buff_values": {
+        "damage": 0,
+        "defense": 0,
+        "health": 0,
+        "speed": 0
+      }
+    },
+    {
+      "id": 1,
+      "name": "Thích khách",
+      "condition": "Thiệt hai tăng 2%",
+      "buff_description": "Tăng sát thương tấn công",
+      "buff_values": {
+        "damage": 2,
+        "defense": 0,
+        "health": 0,
+        "speed": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Đồng bài sát thủ",
+      "condition": "Thiệt hại tăng 4%",
+      "buff_description": "Tăng sát thương tấn công",
+      "buff_values": {
+        "damage": 4,
+        "defense": 0,
+        "health": 0,
+        "speed": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ngân bài sát thủ",
+      "condition": "Thiệt hại tăng 6%",
+      "buff_description": "Tăng sát thương tấn công",
+      "buff_values": {
+        "damage": 6,
+        "defense": 0,
+        "health": 0,
+        "speed": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "Kim bài sát thủ",
+      "condition": "Đối thủ thương hại tăng 8%",
+      "buff_description": "Tăng sát thương tấn công",
+      "buff_values": {
+        "damage": 8,
+        "defense": 0,
+        "health": 0,
+        "speed": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Sát lục chi vương",
+      "condition": "Thiệt hai tăng 10%",
+      "buff_description": "Tăng sát thương tấn công",
+      "buff_values": {
+        "damage": 10,
+        "defense": 0,
+        "health": 0,
+        "speed": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": "Chí tôn ngoạn gia",
+      "condition": "Sức mạnh tăng 40，Thể lực tăng 40，nhanh nhẹn tăng 40",
+      "buff_description": "Tăng sức mạnh, thể lực, nhanh nhẹn",
+      "buff_values": {
+        "damage": 40,
+        "defense": 40,
+        "health": 40,
+        "speed": 40
+      }
+    },
+    {
+      "id": 7,
+      "name": "Yên lặng vô văn",
+      "condition": "Sức mạnh tăng 30，Thể lực tăng 30，nhanh nhẽn tăng 30",
+      "buff_description": "Tăng sức mạnh, thể lực, nhanh nhẹn",
+      "buff_values": {
+        "damage": 30,
+        "defense": 30,
+        "health": 30,
+        "speed": 30
+      }
+    }
+  ],
+  "instructions": {
+    "how_to_edit": "Chỉnh sửa các giá trị trong phần buff_values",
+    "fields": {
+      "damage": "Sức mạnh / Tấn công",
+      "defense": "Phòng ngự / Thể lực",
+      "health": "HP / Máu",
+      "speed": "Nhanh nhẹn / Tốc độ"
+    },
+    "example": "Để tăng damage danh hiệu 'Thích khách' từ 2 thành 10, sửa: 'damage': 2 thành 'damage': 10"
+  }
+}
